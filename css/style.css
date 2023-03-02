@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    max-width: 80%;
+    max-width: 1000px;
 }
 
 .container::after{
@@ -27,6 +27,7 @@ h1{
     font-weight: 700;
     color: #e43070;
     text-align: center;
+    margin-top: 20px;
 }
 
 header p{
@@ -41,17 +42,18 @@ header p{
     width: 30%;
     height: 100px;
     float: left;
+    margin: 20px;
 }
 
 img{
     float: left;
     height: 100%;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .besidetext{
     color: white;
-    padding: 15px;
+    padding: 10px;
     text-align: left;
 }
 
