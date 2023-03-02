@@ -8,13 +8,16 @@
     font-family: 'Cabin', sans-serif;
 }
 
-.body{
-    background-color: white;
+body{
+    background-color: rgb(255, 255, 255);
 }
 
 .container{
-    max-width: 70%;
-    margin: 20px;
+    max-width: 80%;
+}
+
+.container::after{
+    clear: both;
 }
 
 /* header */
@@ -35,15 +38,24 @@ header p{
 
 .rettangolo{
     background-color: #0f0e17;
-    width: auto;
+    width: 30%;
+    height: 100px;
+    float: left;
 }
 
 img{
     float: left;
-    height: 100px;
+    height: 100%;
+    margin-right: 10px;
 }
 
 .besidetext{
     color: white;
-    float: left;
+    padding: 15px;
+    text-align: left;
+}
+
+.besidetext a{
+    color: #0092da;
+    text-decoration: none;
 }
