@@ -1,0 +1,49 @@
+
+/* condizioni generali */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.body{
+    background-color: white;
+}
+
+.container{
+    max-width: 70%;
+    margin: 20px;
+}
+
+/* header */
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #e43070;
+    text-align: center;
+}
+
+header p{
+    margin: 30px auto;
+    text-align: center;
+}
+
+/*  */ 
+
+.rettangolo{
+    background-color: #0f0e17;
+    width: auto;
+}
+
+img{
+    float: left;
+    height: 100px;
+}
+
+.besidetext{
+    color: white;
+    float: left;
+}
